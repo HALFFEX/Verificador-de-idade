@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+
+    <form> 
+        <h2>SALA DE AULA - APRENDENDO DOM</h2>
+        <fieldset>
+            <legend><b>Verificador de Idades</b></legend>
+
+            <div>
+                <label for="idade">Ano de Nascimento: </label>
+                <input type="number" name="idade" id="idade" required>
+            </div>
+
+            <div>
+                <label for="sexo">Sexo: </label>
+                <input type="radio" name="sexo" id="m" checked>Masculino
+                <input type="radio" name="sexo" id="f">Feminino
+            </div>
+            
+            <div>
+                <input type="button" value="ENVIAR" onclick="verificar()">
+            </div>
+
+            <div id="resultado">
+                <p>A resposta será exibida aqui...</p>
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>© dev_Heitor</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

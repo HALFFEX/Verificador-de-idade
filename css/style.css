@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(72, 72, 214);
+    font-family: Verdana;
+}
+
+header, footer {
+    text-align: center;
+    color: aliceblue;
+}
+
+form { 
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+form > fieldset > div {
+    margin-top: 15px;
+}
+
+footer p {
+    font-size: 30px;
+}
